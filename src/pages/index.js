@@ -1,21 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import styled from "@emotion/styled"
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Me from "../components/me"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
+const IndexPage = ({ location }) => (
+  <Layout location={location}>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Hero>
+      <Me />
+    </Hero>
   </Layout>
 )
+
+const Hero = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
 
 export default IndexPage

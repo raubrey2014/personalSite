@@ -8,11 +8,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import styled from "@emotion/styled"
 import Header from "./header"
-import "./layout.css"
+import Footer from "./footer"
 
-const Layout = ({ children }) => {
+const Layout = ({ location, children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -23,26 +23,33 @@ const Layout = ({ children }) => {
     }
   `)
 
+  const path = (location && location.pathname) || ""
+  const isHome = path === "/"
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+      {!isHome && <Header siteTitle={data.site.siteMetadata.title} />}
+      <Wrapper>
+        {!isHome && <main>{children}</main>}
+        {isHome && <CenterStage>{children}</CenterStage>}
+        <Footer />
+      </Wrapper>
     </>
   )
 }
+const Wrapper = styled.div`
+  margin: 0 auto;
+  max-width: 960px;
+  min-height: 100vh;
+  padding: 0 1rem 1rem;
+`
+
+const CenterStage = styled.div`
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+`
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
