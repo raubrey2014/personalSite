@@ -7,11 +7,31 @@ I am
 
 enjoying my big-windowed apartment overlooking P Street, D.C.
 
-unbelievably preparing for the tenth Pancake Friday in a row.
+unbelievably preparing for the 10+ Pancake Friday in a row.
 
-getting to get used to be being so close to my coffee maker.
+trying to get used to be being so close to my coffee maker.
 
----
+<br />
+
+--- *Now*
+
+I finished [_This Land is Our Land_: An immigrant's manifesto](https://us.macmillan.com/books/9780374276027) by Suketu Mehta, in the Logan Circle grass - with other well separated quarantine-pods. The world is different, but some things never change: a passionate author can captivate you. Few books have opened my eyes in the way this one has.
+
+Reading this book felt like living on [_Elysium_](https://en.wikipedia.org/wiki/Elysium_(film)). A faraway place, where those born on one side of a border will dare feats of fantasy and fiction to reach the other side, another place, a better place.
+
+His sections say it all
+- Part I: The Migrants Are Coming
+- Part II: Why They're Coming
+- Part III: Why They're Feared
+- Part IV: Why They Should Be Welcomed
+
+Mehta's book emphasizes the privilege of living in the United States, the privilege of opportunity, the privilege of work, the privilege of safety. I have taken these privileges for granted, but hundreds of millions of immigrants have not.
+
+Despite its 'rage and sadness', Mehta's message is one of hope - hope for a world that sees immigrants for their tenacity, entrepreneurship, and ultimately, their humanity.
+
+<br />
+
+--- *May 1st, 2020*
 
 I just finished [_Tightrope_](https://www.penguinrandomhouse.com/books/588999/tightrope-by-nicholas-d-kristof-and-sheryl-wudunn/), by Nicholas D. Kristof and Sheryl WuDunn. I can't help but see similarities between my hometown of Radford, Virginia and Kristof's hometown of Yamhill, Oregon.
 
