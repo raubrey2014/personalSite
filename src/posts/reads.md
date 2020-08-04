@@ -4,15 +4,11 @@ title: "reads"
 
 #### just finished
 
-[_Tightrope_](https://www.penguinrandomhouse.com/books/588999/tightrope-by-nicholas-d-kristof-and-sheryl-wudunn/), by Nicholas D. Kristof and Sheryl WuDunn
+[_The Deficit Myth_](https://stephaniekelton.com/book/), by Stephanie Kelton
 
 #### currently
 
-Taking software architecture more seriously as an area of study. Loving the concrete examples in [SOLID book](https://solidbook.io/) even with the book being unfinished - eating my vegetables with Uncle Bob's [Clean Architecture](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164).
-
-#### up next
-
-The [Pmarca Blog Archive](https://a16z.com/2015/01/09/pmarca-blog-ebook/), [Patrick Mackenzie's book](https://www.amazon.com/Sell-More-Software-Conversion-Optimization-ebook/dp/B00AHK02PG), and [Dale Carnegie's classic](https://www.amazon.com/dp/B003WEAI4E/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) all wait patiently.
+Ibram X. Kendi is reading [\_How To Be An Antiracist](https://www.ibramxkendi.com/how-to-be-an-antiracist-1) to me. Between he himself reading the audio-book version, as well as having each chapter tied to his or his parents personal experiences, this intimacy is not an exaggeration.
 
 #### reads by year
 
