@@ -1,6 +1,6 @@
 import Typography from "typography"
-import fairyGatesTheme from "typography-theme-fairy-gates"
+import theme from "typography-theme-kirkham"
 
-const typography = new Typography(fairyGatesTheme)
+const typography = new Typography(theme)
 
 export default typography

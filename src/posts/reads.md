@@ -8,7 +8,7 @@ title: "reads"
 
 #### currently
 
-Ibram X. Kendi is reading [\_How To Be An Antiracist](https://www.ibramxkendi.com/how-to-be-an-antiracist-1) to me. Between he himself reading the audio-book version, as well as having each chapter tied to his or his parents personal experiences, this intimacy is not an exaggeration.
+Ibram X. Kendi is reading [_How To Be An Antiracist_](https://www.ibramxkendi.com/how-to-be-an-antiracist-1) to me. Between he himself reading the audio-book version, as well as having each chapter tied to his or his parents personal experiences, this intimacy is not an exaggeration.
 
 #### reads by year
 

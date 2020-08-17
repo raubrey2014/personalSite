@@ -38,5 +38,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-emotion`,
     },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "@components": "src/components",
+          "@theme": "src/theme",
+        },
+        extensions: ["js"],
+      },
+    },
   ],
 }

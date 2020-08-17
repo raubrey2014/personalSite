@@ -2,7 +2,6 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from "@emotion/styled"
-import { P } from "./common"
 import media from "../media-query/media-query"
 
 /*
@@ -42,7 +41,6 @@ const Image = () => {
         fluid={data.placeholderImage.childImageSharp.fluid}
       />
       <IntroText>
-        <P>Hey, I'm Ryan.</P>
         <div
           dangerouslySetInnerHTML={{
             __html: data.markdownRemark && data.markdownRemark.html,
@@ -62,7 +60,21 @@ const Wrapper = styled.div`
 `
 
 const IntroText = styled.div`
-  margin: 1rem;
+  padding: 1rem;
+  color: ${p => p.theme.colors.textPrimary};
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  span,
+  p {
+    color: ${p => p.theme.colors.textPrimary};
+  }
+  a {
+    color: ${p => p.theme.colors.secondary};
+  }
 `
 
 export default Image

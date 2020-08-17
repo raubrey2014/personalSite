@@ -8,9 +8,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Global, css } from "@emotion/core"
+import { ThemeProvider } from "emotion-theming"
 import styled from "@emotion/styled"
-import Header from "./header"
-import Footer from "./footer"
+import Header from "@components/header"
+import Footer from "@components/footer"
+import theme from "@theme"
 
 const Layout = ({ location, children }) => {
   const data = useStaticQuery(graphql`
@@ -26,25 +29,40 @@ const Layout = ({ location, children }) => {
   const path = (location && location.pathname) || ""
   const isHome = path === "/"
   return (
-    <>
-      {!isHome && <Header siteTitle={data.site.siteMetadata.title} />}
-      <Wrapper>
-        {!isHome && <main>{children}</main>}
-        {isHome && <CenterStage>{children}</CenterStage>}
-        <Footer />
-      </Wrapper>
-    </>
+    <ThemeProvider theme={theme}>
+      <Background>
+        <Global
+          styles={css`
+            body {
+              background: ${theme.colors.primary} !important;
+            }
+          `}
+        />
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <Wrapper>
+          {!isHome && <main>{children}</main>}
+          {isHome && <CenterStage>{children}</CenterStage>}
+          <Footer />
+        </Wrapper>
+      </Background>
+    </ThemeProvider>
   )
 }
+
+const Background = styled.div`
+  background: ${p => p.theme.colors.primary};
+  min-height: 100vh;
+`
+
 const Wrapper = styled.div`
   margin: 0 auto;
   max-width: 960px;
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 0 1rem 1rem;
 `
 
 const CenterStage = styled.div`
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: row;
   align-items: center;
