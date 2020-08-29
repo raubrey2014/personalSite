@@ -7,7 +7,6 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import { Global, css } from "@emotion/core"
 import { ThemeProvider } from "emotion-theming"
 import styled from "@emotion/styled"
@@ -16,16 +15,6 @@ import Footer from "@components/footer"
 import theme from "@theme"
 
 const Layout = ({ location, children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   const path = (location && location.pathname) || ""
   const isHome = path === "/"
   return (
@@ -38,7 +27,7 @@ const Layout = ({ location, children }) => {
             }
           `}
         />
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header />
         <Wrapper>
           {!isHome && <main>{children}</main>}
           {isHome && <CenterStage>{children}</CenterStage>}

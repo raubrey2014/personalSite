@@ -2,19 +2,25 @@ import React from "react"
 import styled from "@emotion/styled"
 import { graphql } from "gatsby"
 import Layout from "@components/layout"
+import SEO from "@components/seo"
 
 export default ({ data }) => {
   const post = data.markdownRemark
+  const title = post.frontmatter.title || ""
+
   return (
-    <Layout>
-      <BlogPostBody className="HeroFade">
-        <h2>{post.frontmatter.title}</h2>
-        <div
-          style={{ color: "white" }}
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
-      </BlogPostBody>
-    </Layout>
+    <>
+      <SEO title={title} />
+      <Layout>
+        <BlogPostBody className="HeroFade">
+          <h2>{post.frontmatter.title}</h2>
+          <div
+            style={{ color: "white" }}
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+        </BlogPostBody>
+      </Layout>
+    </>
   )
 }
 

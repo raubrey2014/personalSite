@@ -1,5 +1,4 @@
 import Link from "@components/link"
-import PropTypes from "prop-types"
 import React from "react"
 import styled from "@emotion/styled"
 
@@ -36,13 +35,5 @@ const InnerWrapper = styled.div`
 const Spacer = styled.span`
   margin-left: 8px;
 `
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
