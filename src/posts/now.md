@@ -1,15 +1,9 @@
 ---
 title: ""
-date: "2020-05-01"
+date: "2021-01-01"
 ---
 
-I am
-
-enjoying my big-windowed apartment overlooking P Street, D.C.
-
-unbelievably preparing for the 10+ Pancake Friday in a row.
-
-trying to get used to be being so close to my coffee maker.
+I am returning from the frozen tundra of Boston to a snow storm in DC. Not a bad time for a good book... bell hook's [All About Love: New Visions](https://www.amazon.com/All-About-Love-Visions-Paperback-ebook/dp/B078GL796R) looks to be next on the list.
 
 <br />
 
