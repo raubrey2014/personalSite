@@ -80,7 +80,7 @@ I poured through the book, enveloped in Scott's passion and ultimately in the st
 
 Out of these humble beginnings, charity: water has set the standard in philanthropy for communicating impact. As a result, they have raised almost half a billion dollars towards providing clean water for the world's neediest communities.
 
-It has been Scott's focus on impact, charity: water's scrappy start-up roots, and the that has made me feel a part of the organization's most ambitious goal: ending global water poverty.
+It has been Scott's focus on impact, charity: water's scrappy start-up roots, and the power of redemption found in the pages of _Thirst_ that has made me feel a part of this most ambitious goal: ending global water poverty.
 
 My hope is to bring a few of you along with me.
 
